@@ -1,7 +1,8 @@
 const { Telegraf } = require('telegraf');
 const fs = require('fs');
 
-const bot = new Telegraf('');
+const bot = new Telegraf(process.env.BOT_TOKEN);
+require('dotenv').config();
 
 let bannedUsers;
 try {
@@ -42,4 +43,5 @@ const startBot = async () => {
 		console.error(error);
 	}
 }
+
 startBot();
