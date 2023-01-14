@@ -32,7 +32,7 @@ bot.command('add', (ctx) => {
 
 
 bot.command('deleteid', (ctx) => {
-  if (ctx.from.id === 668557709) {
+  if (ctx.from.id === xxxxxxxx) {
     const message = ctx.message;
     const userId = message.reply_to_message.from.id;
     const index = bannedUsers.indexOf(userId);
