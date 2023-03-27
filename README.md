@@ -5,7 +5,7 @@
 1. Clone this repository to your computer.
 2. Install the necessary dependencies using the command `npm install`.
 3. Copy the [.env.copy](./.env.copy) file to a [.env](https://www.npmjs.com/package/dotenv) in the project root and add the `BOT_TOKEN` key with your Telegram bot token.
-4. Create a `spam_users.json` file in the project root and add the IDs of the users you want to ban. For example:
+4. Create a `spam-users-id.json` file in the project root and add the IDs of the users you want to ban. For example:
 
 ```json
 [5753128895, 1548692361, 5800820904]
